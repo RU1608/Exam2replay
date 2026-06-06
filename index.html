@@ -1,11 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Fixper</title>
 </head>
 <body>
-    
+
+<section class="bg-[#A95094] overflow-hidden min-h-screen relative">
+
+  <header class="max-w-7xl mx-auto px-4 lg:px-8 pt-5">
+
+    <div class="hidden lg:flex items-center justify-between">
+
+      <div class="flex items-center gap-14">
+
+        <img src="./src/img/лого.png" alt="">
+
+        <nav class="flex gap-10 text-white text-sm font-medium">
+          <a href="#">Диагностика</a>
+          <a href="#">Стоимость</a>
+          <a href="#">Мастера</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Вопросы</a>
+        </nav>
+
+      </div>
+
+      <div class="flex items-center gap-8">
+
+        <span class="text-white text-sm">
+          Москва
+        </span>
+
+        <button
+          class="border-2 border-yellow-400 text-yellow-400 px-10 py-4 rounded-2xl font-bold">
+          Позвонить
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div class="lg:hidden">
+
+      <div class="flex justify-between text-white text-sm">
+
+        <span>Москва</span>
+
+        <div class="flex gap-5 overflow-x-auto">
+          <a href="#">Диагностика</a>
+          <a href="#">Стоимость</a>
+          <a href="#">Мастера</a>
+          <a href="#">Отзывы</a>
+        </div>
+
+      </div>
+
+      <div class="flex justify-between items-center mt-5">
+
+        <img src="./src/img/лого.png" alt="">
+
+        <button
+          class="border-2 border-yellow-400 text-yellow-400 px-6 py-3 rounded-xl font-bold">
+          Позвонить
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <div
+    class="max-w-7xl mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
+
+
+    <div
+      class="relative w-full lg:w-1/2 order-2 lg:order-1 mt-10 lg:mt-0">
+
+
+      <img
+        src="./src/img/стриралка.png"
+        class="relative z-10 mx-auto lg:mx-0 w-[280px] sm:w-[220px] lg:w-[300px]"
+        alt="">
+
+
+      <img
+        src="./src/img/repairman 1.png"
+        class="absolute z-20 bottom-0 right-0 w-[420px] sm:w-[350px] lg:w-[470px]"
+        alt="">
+
+
+      <button
+        class="absolute left-1/2 -translate-x-1/2 bottom-10 z-30 bg-black text-white px-10 py-4 rounded-2xl font-semibold">
+        Заказать звонок
+      </button>
+
+    </div>
+
+
+    <div
+      class="w-full lg:w-1/2 order-1 lg:order-2 text-center lg:text-left mt-10 lg:mt-0">
+
+      <h1
+        class="text-white font-extrabold leading-none
+        text-[42px]
+        sm:text-[60px]
+        lg:text-[74px]">
+
+        Ремонт стиральных машин на дому с годовой гарантией
+
+      </h1>
+
+      <p
+        class="mt-6 text-[18px] sm:text-[22px] lg:text-[24px] font-bold text-yellow-400">
+
+        Отремонтируем на дому
+
+        <span class="text-white font-semibold">
+          или бесплатно завезем и доставим обратно из сервисного центра
+        </span>
+
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div
+    class="bg-black lg:absolute bottom-5 left-1/2 lg:-translate-x-1/2
+    w-full lg:w-[90%] mt-8 lg:mt-0">
+
+    <div
+      class="flex flex-col md:flex-row items-center justify-between gap-4 px-5 py-4">
+
+      <span class="text-white">✕</span>
+
+      <p
+        class="text-white text-center font-semibold">
+
+        <span class="text-green-500">●</span>
+
+        Мы открыты и принимаем заказы до 21:00, позвоните сейчас и мы сделаем скидку 15%
+
+      </p>
+
+      <button class="text-yellow-400 font-bold">
+        Получить скидку →
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
 </body>
 </html>
